@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;  /* Yatay ortalama */
+    align-items: center;      /* Dikey ortalama */
+    background-color: rgb(175, 174, 174);
+}
+
+.header{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(106, 233, 253);
+    background-color: rgb(50, 12, 12);
+    border-radius: 7px;
+    box-shadow: 3px 5px 5px gray;
+    margin-bottom: 15px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    padding: 10px;
+    border: 3px solid gray;
+    box-shadow: 3px 5px 5px gray;
+    border-radius: 7px;
+    width: 350px;
+    background-color: rgb(221, 221, 221);
+}
+.button{
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.kAdi, .password{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: center;
+}
+
+#kAdi, #sifre{
+    border-radius: 7px;
+    border: 1px solid gray; 
+}

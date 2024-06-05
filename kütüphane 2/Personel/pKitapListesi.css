@@ -1,0 +1,59 @@
+html body{
+    background-color: rgb(175, 174, 174);
+}
+
+.hizliErisim{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid gray;
+    border-radius: 7px;
+    box-shadow: 3px 5px 5px gray;
+    width: 550px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(221, 221, 221);
+}
+
+.element{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.input{
+    width: 200px;
+    margin-right: 70px;
+    border: 1px solid gray;
+    border-radius: 7px;
+}
+
+.label{
+    padding-left: 100px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center; /* Butonları yatayda ortalar */
+    gap: 10px; /* Butonlar arasında boşluk bırakır */
+    width: 100%; /* Genişliği tam yapar */
+    margin-top: 20px; /* Üst kısımda biraz boşluk bırakır */
+}
+
+.btn{
+    width: 150px;
+}
+
+.labelKitap{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(106, 233, 253);
+    background-color: rgb(50, 12, 12);
+    border-radius: 7px;
+    box-shadow: 3px 5px 5px gray;
+    margin-bottom: 15px;
+}

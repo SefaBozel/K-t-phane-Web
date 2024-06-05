@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="pTeslimOnay.css">
+    <title>Emanet Onay</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="hizliErisim">
+            <div class="kID element">
+                <label for="text" style="margin-left: 179px;">ID:</label>
+                <input type="text" id="ID" class="input">
+            </div>
+            <div class="kAdi element">
+                <label for="text" style="margin-left: 131px;">Kitap Adı:</label>
+                <input type="text" id="kitapAdi" class="input">
+            </div>
+            <div class="KitapID element">
+                <label for="text" style="margin-left: 130px;">Yazar Adı:</label>
+                <input type="text" id="yazarAdi" class="input">
+            </div>
+            <div class="kitapAdi element">
+                <label for="text" style="margin-left: 113px;">Alınan Tarih:</label>
+                <input type="date" id="alinmaTarih" class="input">
+            </div>
+            <div class="yAdi element">
+                <label for="text" style="margin-left: 114px;">Teslim Tarih:</label>
+                <input type="date" id="teslimTarih" class="input">
+            </div>
+            <div class="buttons">
+                <button id="btnOnay" class="btn btn-primary btn-lg">Onayla</button>
+            </div>
+        </div>
+        <div class="eListesi">
+            <p class="labelEmanet">Emanet Listesi</p>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Kitap İsmi</th>
+                        <th scope="col">Yazar İsmi</th>
+                        <th scope="col">Alinma Tarihi</th>
+                        <th scope="col">Teslim Tarihi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="pTeslimOnay.js"></script>
+</body>
+
+</html>

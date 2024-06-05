@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="pKullaniciListesi.css">
+    <title>Kullanıcı Listesi</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="hizliErisim">
+            <div class="ID element">
+                <label for="id" class="label" style="margin-left: 79px;">ID:</label>
+                <input type="text" id="ID" class="input">
+            </div>
+            <div class="name element">
+                <label for="name" class="label" style="margin-left: 66px;">İsim:</label>
+                <input type="text" id="name" class="input">
+            </div>
+            <div class="surname element">
+                <label for="surname" class="label" style="margin-left: 41px;">Soyisim:</label>
+                <input type="text" id="surname" class="input">
+            </div>
+            <div class="tcNo element">
+                <label for="tc" class="label" style="margin-left: 47px;">T.C No:</label>
+                <input type="text" id="tc" class="input">
+            </div>
+            <div class="phone element">
+                <label for="phoneNumber" class="label" style="margin-left: 18px;">Telefon No:</label>
+                <input type="number" id="phone" class="input">
+            </div>
+            <div class="password element">
+                <label for="password" class="label" style="margin-left: 63px;">Şifre:</label>
+                <input type="password" id="password" class="input">
+            </div>
+            <div class="buttons">
+                <button type="button" id="kaydetButton" class="btn btn-success btn-lg">Kaydet</button>
+                <button type="button" class="btn btn-primary btn-lg">Güncelle</button>
+                <button type="button" id="silButton" class="btn btn-danger btn-lg">Sil</button>
+            </div>
+        </div>
+        <div class="kListesi">
+            <p class="labelKullanici">Kullanıcı Listesi</p>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">İsim</th>
+                        <th scope="col">Soyisim</th>
+                        <th scope="col">Telefon No</th>
+                        <th scope="col">Kullanıcı T.C</th>
+                        <th scope="col">Kullanıcı Şifre</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Sefa</td>
+                        <td>Bozel</td>
+                        <td>05388335556</td>
+                        <td>15563392936</td>
+                        <td>sefa12345</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="pKulListesiapp.js"></script>
+</body>
+
+</html>

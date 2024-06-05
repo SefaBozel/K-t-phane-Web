@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="pAnaSayfa.css">
+    <title>Ana Sayfa</title>
+</head>
+<body>
+    <div class="container">
+        <div class="hizliErisim">
+            <div class="kullanıcıListesi element">
+                <a href="pKullaniciListesi.html"><button class="btn btn-primary btn-lg">Kullanıcı Listesi</button></a>
+            </div>
+            <div class="kitapListesi element">
+                <a href="pKitapListesi.html"><button class="btn btn-primary btn-lg">Kitap Listesi</button></a>
+            </div>
+            <div class="eOnay element">
+                <a href="pEmanetOnay.html"><button class="btn btn-primary btn-lg">Emanet Onay</button></a>
+            </div>
+            <div class="tOnay element">
+                <a href="pTeslimOnay.html"><button class="btn btn-primary btn-lg">Teslim Onay</button></a>
+            </div>
+            <div class="gEmanetler element">
+                <a href="#"><button class="btn btn-primary btn-lg">Geciken Emanetler</button></a>
+            </div>
+        </div>
+        <div class="kitapListesi">
+            <p class="labelKitap">Kitap Listesi</p>
+            <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">Kitap ID</th>
+                    <th scope="col">Kitap Adı</th>
+                    <th scope="col">Yazar Adı</th>
+                    <th scope="col">Yazar Soyadı</th>
+                    <th scope="col">Sayfa Sayısı</th>
+                    <th scope="col">Yayınevi</th>
+                    <th scope="col">Kitap Türü</th>
+                  </tr>
+                </thead>
+                <tbody>
+                </tbody>
+              </table>
+        </div>
+        <div class="emanetListesi">
+            <p class="labelEmanet">Emanet Listesi</p>
+            <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">Alınan ID</th>
+                    <th scope="col">Kullanıcı Adı</th>
+                    <th scope="col">Kitap Adı</th>
+                    <th scope="col">Yazar Adı</th>
+                    <th scope="col">Alınan Tarih</th>
+                    <th scope="col">Teslim Tarihi</th>
+                    <th scope="col">Kitap ID</th>
+                    <th scope="col">Kullanıcı ID</th>
+                    <th scope="col">Teslim</th>
+                  </tr>
+                </thead>
+                <tbody>
+                </tbody>
+              </table>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+        <script src="pAnaSayfa.js"></script>
+</body>
+</html>
